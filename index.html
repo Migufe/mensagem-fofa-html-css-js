@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="João Paulo">
+  <meta name="keywords" content="html, html5, css, javascript, js, cadastro">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: url(./imagens/house.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    @media (max-width: 1080px){
+      body {
+        background: url(./imagens/house.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+    }
+
+    @media screen and (max-width: 720px){
+      body {
+        background: url(./imagens/house.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    }
+
+    @media screen and (max-width: 600px){
+      body {
+        background: url(./imagens/house.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Entre aqui!</h1>
+      <a href="boasvindas.html" target="_self"><button onclick="guardarNome()">Entrar</button></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
